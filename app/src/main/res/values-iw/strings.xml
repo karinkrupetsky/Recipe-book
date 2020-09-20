@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="add_recipe">הוסף מתכון</string>
+    <string name="recipe_name">שם המנה</string>
+    <string name="time">זמן הכנה בדקות</string>
+    <string name="Ingredients">מרכיבים</string>
+    <string name="pic">צלם תמונה</string>
+    <string name="add">הוסף</string>
+    <string name="back">חזור</string>
+    <string name="Myrecipes">המתכונים שלי</string>
+    <string name="add_new">הוסף מתכון חדש</string>
+    <string name="Recipename">שם המנה:</string>
+    <string name="Timepreperation">זמן הכנה:</string>
+    <string name="Ingredient">מרכיבים:</string>
+    <string name="rateonetofive">דרג מ1-5 כמה נהינת מהמאכל</string>
+    <string name="pancake">פנקייק</string>
+    <string name="dakot">" דקות "</string>
+    <string name="min">"  דקות  "</string>
+</resources>

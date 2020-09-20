@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="add_recipe">Add Recipe</string>
+    <string name="recipe_name">Recipe name</string>
+    <string name="time">Preparation time in minutes</string>
+    <string name="Ingredients">Ingredients</string>
+    <string name="Ingredient">Ingredients:  </string>
+    <string name="pic">Take picture</string>
+    <string name="add">Add your recipe</string>
+    <string name="back">Back</string>
+    <string name="Myrecipes">My recipes</string>
+    <string name="add_new">Add new recipe</string>
+    <string name="Recipename">Recipe name:  </string>
+    <string name="Timepreperation">Time preperation:  </string>
+    <string name="rateonetofive">Rate from 1-5 how you enjoyed the food?</string>
+    <string name="pancake">pancake</string>
+    <string name="dakot">" minutes "</string>
+    <string name="min">"  minutes  "</string>
+</resources>

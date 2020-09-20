@@ -1,0 +1,147 @@
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background">
+
+
+    <ScrollView android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape_selector">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Recipename"
+                android:gravity="center"
+                android:layout_margin="5sp"
+                android:textSize="20sp"
+                android:textColorHint="@color/colorPrimary"
+                android:fontFamily="@font/amaranth"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/name_recipe"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="5sp"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/amaranth"
+                android:textStyle="bold"
+                android:id="@+id/name_recipes"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape_selector">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="5sp"
+                android:text="@string/Timepreperation"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/amaranth"
+                android:textSize="20sp"
+                android:id="@+id/prep_time"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="5sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/amaranth"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/prepe_time"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_selector">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="5sp"
+                android:fontFamily="@font/amaranth"
+                android:text="@string/Ingredient"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:id="@+id/ingr"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="5sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:fontFamily="@font/amaranth"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/ingri"/>
+        </LinearLayout>
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:id="@+id/result_image"
+                />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/bonapetit"
+
+                />
+
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="חזור"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_selector_two"
+                android:layout_gravity="center"
+                android:fontFamily="@font/amaranth"
+                android:id="@+id/backk_btn"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
